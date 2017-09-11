@@ -30,6 +30,7 @@ public class PathOfLowestCostExamplesFragment extends Fragment {
         Button goButton = (Button) fragmentView.findViewById(R.id.go_button);
         goButton.setOnClickListener(new GoOnClickListener());
 
+
         return fragmentView;
     }
 
@@ -39,28 +40,6 @@ public class PathOfLowestCostExamplesFragment extends Fragment {
                 return GridUtils.EXAMPLE_GRID_1;
             case R.id.grid_2_button:
                 return GridUtils.EXAMPLE_GRID_2;
-            case R.id.grid_3_button:
-                return GridUtils.EXAMPLE_GRID_3;
-            case R.id.grid_4_button:
-                return GridUtils.EXAMPLE_GRID_4;
-            case R.id.grid_5_button:
-                return GridUtils.EXAMPLE_GRID_5;
-            case R.id.grid_6_button:
-                return GridUtils.EXAMPLE_GRID_6;
-            case R.id.grid_7_button:
-                return GridUtils.EXAMPLE_GRID_7;
-            case R.id.grid_8_button:
-                return GridUtils.EXAMPLE_GRID_8;
-            case R.id.grid_9_button:
-                return GridUtils.EXAMPLE_GRID_9;
-            case R.id.grid_10_button:
-                return GridUtils.EXAMPLE_GRID_10;
-            case R.id.grid_11_button:
-                return GridUtils.EXAMPLE_GRID_11;
-            case R.id.grid_12_button:
-                return GridUtils.EXAMPLE_GRID_12;
-            case R.id.grid_13_button:
-                return GridUtils.EXAMPLE_GRID_13;
 
             default:
                 return null;

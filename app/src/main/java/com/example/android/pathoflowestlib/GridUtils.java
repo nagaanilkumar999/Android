@@ -16,77 +16,7 @@ public class GridUtils {
             { 8, 4, 1, 3, 2, 6 },
             { 3, 7, 2, 1, 2, 3 }
     });
-    public static final Grid EXAMPLE_GRID_3 = new Grid(new int[][]{
-            { 19, 10, 19, 10, 19 },
-            { 21, 23, 20, 19, 12 },
-            { 20, 12, 20, 11, 10 }
-    });
 
-    public static final Grid EXAMPLE_GRID_4 = new Grid(new int [][]{
-
-        {5,8,5,3,5}
-    });
-
-    public static final Grid EXAMPLE_GRID_5 = new Grid(new int [][]{
-            {5},
-            {8},
-            {5},
-            {3},
-            {5}
-
-    });
-    public static final Grid EXAMPLE_GRID_6 = new Grid(new int [][]{
-
-            {5,4,'H'},
-            {8,'M',7},
-            {5,7,5}
-    });
-    public static final Grid EXAMPLE_GRID_7 = new Grid(new int [][]{
-
-            {69,10,19,10,19},
-            {51,23,20,19,12},
-            {60,12,20,11,10}
-    });
-
-    public static final Grid EXAMPLE_GRID_8 = new Grid(new int [][]{
-
-            {60,3,3,6},
-            {6,3,7,9},
-            {5,6,8,3}
-    });
-    public static final Grid EXAMPLE_GRID_9 = new Grid(new int [][]{
-
-            {6,3,-5,9},
-            {-5,2,4,10},
-            {3,-2,6,10},
-            {6,-1,-2,10}
-    });
-    public static final Grid EXAMPLE_GRID_10 = new Grid(new int [][]{
-
-            {51,51},
-            {0,51},
-            {51,51},
-            {5,5}
-
-    });
-    public static final Grid EXAMPLE_GRID_11 = new Grid(new int [][]{
-
-            {60,3,3,6},
-            {6,3,7,9},
-            {5,6,8,3}
-    });
-    public static final Grid EXAMPLE_GRID_12 = new Grid(new int [][]{
-
-            {51,51,51},
-            {0,51,51},
-            {51,51,51},
-            {5,5,51}
-    });
-    public static final Grid EXAMPLE_GRID_13 = new Grid(new int [][]{
-
-            {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
-            {2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2}
-    });
     public static int[][] gridArrayFromString(String input) {
         if (input != null) {
             String[] rows = input.split("\n");

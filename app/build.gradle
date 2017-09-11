@@ -26,6 +26,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     testCompile 'org.robolectric:robolectric:3.0'
     testCompile 'org.robolectric:shadows-support-v4:3.0'
-    compile files('libs/pathoflowestcost-lib-1.0-SNAPSHOT.jar')
+    //compile files('libs/pathoflowestcost-lib-1.0-SNAPSHOT.jar')
     compile project(':pathoflowestlib')
 }
