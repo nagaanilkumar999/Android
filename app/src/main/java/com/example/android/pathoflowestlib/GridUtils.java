@@ -16,6 +16,12 @@ public class GridUtils {
             { 8, 4, 1, 3, 2, 6 },
             { 3, 7, 2, 1, 2, 3 }
     });
+    
+    public static final Grid EXAMPLE_GRID_3 = new Grid(new int[][]{
+            { 19, 10, 19, 10, 19 },
+            { 21, 23, 20, 19, 12 },
+            { 20, 12, 20, 11, 10 }
+    });
 
     public static int[][] gridArrayFromString(String input) {
         if (input != null) {
