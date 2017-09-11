@@ -40,6 +40,8 @@ public class PathOfLowestCostExamplesFragment extends Fragment {
                 return GridUtils.EXAMPLE_GRID_1;
             case R.id.grid_2_button:
                 return GridUtils.EXAMPLE_GRID_2;
+                case R.id.grid_3_button:
+                return GridUtils.EXAMPLE_GRID_3;
 
             default:
                 return null;
